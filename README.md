@@ -8,6 +8,7 @@ A simple library that uses the hydration pattern to fill objects given different
 * [What is Data Hydration](#what-is-data-hydration)
 * [Installation](#installation)
 * [Usage](#usage)
+* [TODO](#todo)
 
 
 ### What is Data Hydration
@@ -80,3 +81,14 @@ $data = $hydrator->extract($model);
 // data = ['property1' => 'value1', 'property2' => 'value2']
 
 ```
+
+TODO
+======
+Implement ObjectPropertyHydrator
+
+Implement ClassMethodsHydrator
+
+For more info check:
+* http://www.webconsults.eu/blog/entry/108-What_is_a_Hydrator_in_Zend_Framework_2
+* https://github.com/laminas/laminas-hydrator/tree/4.1.x/src
+* https://docs.laminas.dev/laminas-hydrator/v3/quick-start/#base_interfaces

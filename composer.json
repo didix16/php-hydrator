@@ -2,15 +2,23 @@
     "name": "didix16/php-hydrator",
     "description": "A simple library that uses the hydration pattern to fill objects given different sources of data.",
     "type": "library",
+    "keywords": ["simple", "hydrator", "extractor", "data", "hydration"],
     "require": {
         "php": ">= 7.2"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Didix",
-            "email": "drodriguez816@gmail.com"
+            "name": "Dídac Rodríguez",
+            "email": "drodriguez816@gmail.com",
+            "homepage": "https://github.com/didix16",
+            "role": "Developer"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "didix16\\Hydrator\\": "src/"
+        }
+    }
 }

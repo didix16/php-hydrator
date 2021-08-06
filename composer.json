@@ -1,6 +1,6 @@
 {
     "name": "didix16/php-hydrator",
-    "description": "A simple library tA simple library that uses the hydration pattern to fill objects given different sources of data.",
+    "description": "A simple library that uses the hydration pattern to fill objects given different sources of data.",
     "type": "library",
     "require": {
         "php": ">= 7.2"

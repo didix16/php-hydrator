@@ -45,6 +45,10 @@ $hydrator->hydrate([
 
 //$model->getProperty1() === 'value1'
 //$model->getProperty2() === 'value2'
+
+$data = $hydrator->extract($model);
+
+// data = ['property1' => 'value1', 'property2' => 'value2']
 ```
 
 ```php
@@ -70,5 +74,9 @@ $hydrator->hydrate([
 
 //$model->getProperty1() === 'value1'
 //$model->getProperty2() === 'value2'
+
+$data = $hydrator->extract($model);
+
+// data = ['property1' => 'value1', 'property2' => 'value2']
 
 ```
